@@ -1,0 +1,7 @@
+<testsuite failures="0" name="src/test/java/apiTest/ApiScenario.feature" skipped="0" tests="1" time="2.982134">
+  <testcase classname="src.test.java.apiTest.ApiScenario" name="To test the rest api Get feature" time="2.982134">
+    <system-out>Given url 'http://dummy.restapiexample.com/' .............................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+</testsuite>

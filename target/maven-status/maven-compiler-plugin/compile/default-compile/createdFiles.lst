@@ -1,0 +1,4 @@
+ApiTest\RestAssuredApiTest\CommentForm.class
+ApiTest\RestAssuredApiTest\Comments.class
+ApiTest\RestAssuredApiTest\App.class
+ApiTest\RestAssuredApiTest\CommentController.class

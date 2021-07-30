@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+      
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            
+        <meta charset="utf-8">
+            
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+            
+        <link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
+            
+        <link href="res/karate-report.css" rel="stylesheet" type="text/css">
+            
+        <link href="favicon.ico" rel="shortcut icon">
+            <script src="res/jquery.min.js" type="text/javascript"></script>
+    <script src="res/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="res/bootstrap.min.js" type="text/javascript"></script>
+    <script src="res/karate-report.js" type="text/javascript"></script>
+    
+        <title>src.test.java.apiTest.ApiScenario</title>
+          
+    </head>
+      
+    <body>
+            
+        <div id="root-container">
+                  
+            <div id="leftnav">
+                        
+                <div class="nav-logo">
+                              <a href="karate-summary.html">
+            <img alt="Karate" src="res/karate-logo.svg">
+          </a>
+          
+                    <div class="nav-count">
+                                    
+                        <div class="bg-success" id="nav-pass">1</div>
+                                    
+                        <div class="bg-danger" id="nav-fail">0</div>
+                                  
+                    </div>
+                            
+                </div>
+                        
+                <div id="nav-type">Scenarios</div>
+                         
+        
+                <div id="nav-date">2021-07-29 10:50:39 PM</div>
+                        
+      
+                <div class="nav-container">
+                    <div class="nav-item passed">
+                        <a href="#[1:27]">[1:27] To test the rest api Get feature </a>
+                    </div>
+                </div>
+            </div>
+                  
+            <div id="content">
+                      
+                <div class="page-heading alert alert-primary">
+                    <a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">src/test/java/apiTest/ApiScenario.feature</span><span class="feature-description">Check Rest API | I want to check the sample REST Api using Karate framework</span>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[1:27]">
+                        <div class="heading-container">
+                            <div class="scenario-tags">
+                                <a class="badge badge-primary" href="karate-tags.html">tag1</a><a class="badge badge-primary" href="karate-tags.html">tag</a>
+                            </div>
+                            <span class="scenario-keyword">Scenario: [1:27]</span><span class="scenario-name">To test the rest api Get feature </span>
+                        </div>
+                        <div class="scenario-time passed">ms: 2982</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="1">
+                            <div class="step-ref passed">1</div>
+                            <div class="step-cell passed">Given url 'http://dummy.restapiexample.com/'</div>
+                        </div>
+                        <div class="time-cell passed">17</div>
+                    </div>
+                    <div class="preformatted" data-parent="1">22:50:35.488 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+                    <div class="step-row">
+                        <div class="step-container" id="2">
+                            <div class="step-ref passed">2</div>
+                            <div class="step-cell passed">When method get</div>
+                        </div>
+                        <div class="time-cell passed">2965</div>
+                    </div>
+                    <div class="preformatted" data-parent="2">22:50:37.114 request:
+1 &gt; GET http://dummy.restapiexample.com/
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: dummy.restapiexample.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/12.0.1)
+
+22:50:38.473 response time in milliseconds: 1328.58
+1 &lt; 200
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; CF-RAY: 676804d37f434aec-HYD
+1 &lt; Cache-Control: no-cache, private, max-age=3600
+1 &lt; Connection: keep-alive
+1 &lt; Content-Type: text/html; charset=UTF-8
+1 &lt; Date: Thu, 29 Jul 2021 17:20:37 GMT
+1 &lt; Display: pub_site_to_orig_sol
+1 &lt; Expires: Thu, 29 Jul 2021 18:20:36 GMT
+1 &lt; Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 &lt; NEL: {"report_to":"cf-nel","max_age":604800}
+1 &lt; Pagespeed: off
+1 &lt; Referrer-Policy: 
+1 &lt; Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=WqFieeCvnlsm9LWK55RDPdBFRossf%2FyQ5opyUptw%2FuEF%2FW%2F7UV%2Foxk%2FYM55QCNEqdTBJliaKXBdU%2F5le2XKBKRH5O0%2Fg%2FgNaYD4K9BGI3rS4tMaS1JRsaubeKy2xaWq0gpwHRJc1w2f78Rw%3D"}],"group":"cf-nel","max_age":604800}
+1 &lt; Response: 200
+1 &lt; Server: cloudflare
+1 &lt; Set-Cookie: [XSRF-TOKEN=eyJpdiI6Im1sdzY5d245Sm1GOTNmcEc5YmxSaGc9PSIsInZhbHVlIjoiN1BYUXB6b1Fmc3E5cWJUQWZNRm5tL3piT3hBZG0zUVJkd0lrRFRRQm1mUnpJRVA5WEZDZTVOWDZlTjhYTEFEQyIsIm1hYyI6IjVjNDQ5NmEyOGQ1YTkxM2U1MDI3Mjc1OWE4ODg5ZTJjNjUyNWU2ZGE1OTU4MjU3MTBlY2UwYmE5OTQzMTc4ZWIifQ%3D%3D; expires=Thu, 29-Jul-2021 19:20:37 GMT; Max-Age=7200; path=/; samesite=lax, laravel_session=eyJpdiI6IkFyNDY0a0dPaDh5MkJ6bnVyVG9qdXc9PSIsInZhbHVlIjoiWWgrbDZGbk9sUXhXRlFJbk1DWC9WUXpmK1FpelplbXA1Z0NOdFVxdVVYUFhneDdHRmFIK2IyTkhZZ1VjK2ZyeCIsIm1hYyI6IjE2MWZmZGQ1MTZkYjBmNTBkZjZlZjRmMjgwY2ZhZTVjMTk1NDcyNTJkZmNiZTJjZDdjZjQ5YjZiOTM0ZTcyNTMifQ%3D%3D; expires=Thu, 29-Jul-2021 19:20:37 GMT; Max-Age=7200; path=/; httponly; samesite=lax, ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Thu, 29 Jul 2021 17:50:36 UTC, ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Thu, 29 Jul 2021 19:20:36 UTC, ezoab_133674=mod1-c; Path=/; Domain=restapiexample.com; Expires=Thu, 29 Jul 2021 19:20:36 UTC, active_template::133674=pub_site.1627579236; Path=/; Domain=restapiexample.com; Expires=Sat, 31 Jul 2021 17:20:36 UTC, lp_133674=http://dummy.restapiexample.com/; Path=/; Domain=restapiexample.com; Expires=Thu, 29 Jul 2021 17:50:37 UTC, ezovuuidtime_133674=1627579237; Path=/; Domain=restapiexample.com; Expires=Sat, 31 Jul 2021 17:20:37 UTC, ezovuuid_133674=83ade783-fcff-4504-58aa-abf58185d9df; Path=/; Domain=restapiexample.com; Expires=Thu, 29 Jul 2021 17:50:37 UTC, ezopvc_133674=1; Path=/; Domain=restapiexample.com; Expires=Thu, 29 Jul 2021 17:50:37 UTC, ezCMPCCS=true; Path=/; Domain=restapiexample.com; Expires=Fri, 29 Jul 2022 17:20:37 GMT]
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Vary: [Accept-Encoding, Accept-Encoding,User-Agent]
+1 &lt; X-Ezoic-Cdn: Miss
+1 &lt; X-Middleton-Display: pub_site_to_orig_sol
+1 &lt; X-Middleton-Response: 200
+1 &lt; X-Sol: pub_site
+1 &lt; alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+&lt;html&gt;&lt;head&gt;&lt;meta charset="UTF-8"/&gt;
+&lt;script data-ezscrex='false' data-cfasync='false' data-pagespeed-no-defer&gt;var __ez=__ez||{};__ez.stms=Date.now();__ez.evt={};__ez.script={};__ez.ck=__ez.ck||{};__ez.template={};__ez.template.isOrig=true;__ez.queue=(function(){var count=0,incr=0,items=[],timeDelayFired=false,hpItems=[],lpItems=[],allowLoad=true;var obj={func:function(name,funcName,parameters,isBlock,blockedBy,deleteWhenComplete,proceedIfError){var self=this;this.name=name;this.funcName=funcName;this.parameters=parameters===null?null:(parameters instanceof Array)?parameters:[parameters];this.isBlock=isBlock;this.blockedBy=blockedBy;this.deleteWhenComplete=deleteWhenComplete;this.isError=false;this.isComplete=false;this.isInitialized=false;this.proceedIfError=proceedIfError;this.isTimeDelay=false;this.process=function(){log("... func = "+name);self.isInitialized=true;self.isComplete=true;log("... func.apply: "+name);var funcs=self.funcName.split('.');var func=null;if(funcs.length&gt;3){}else if(funcs.length===3){func=window[funcs[0]][funcs[1]][funcs[2]];}else if(funcs.length===2){func=window[funcs[0]][funcs[1]];}else{func=window[self.funcName];}
+if(typeof func!=='undefined'&amp;&amp;func!==null){func.apply(null,this.parameters);}
+if(self.deleteWhenComplete===true)delete items[name];if(self.isBlock===true){log("----- F'D: "+self.name);processAll();}}},file:function(name,path,isBlock,blockedBy,async,defer,proceedIfError){var self=this;this.name=name;this.path=path;this.async=async;this.defer=defer;this.isBlock=isBlock;this.blockedBy=blockedBy;this.isInitialized=false;this.isError=false;this.isComplete=false;this.proceedIfError=proceedIfError;this.isTimeDelay=false;this.process=function(){self.isInitialized=true;log("... file = "+name);var scr=document.createElement('script');scr.src=path;if(async===true)scr.async=true;else if(defer===true)scr.defer=true;scr.onerror=function(){log("----- ERR'D: "+self.name);self.isError=true;if(self.isBlock===true){processAll();}};scr.onreadystatechange=scr.onload=function(){var state=scr.readyState;log("----- F'D: "+self.name);if((!state||/loaded|complete/.test(state))){self.isComplete=true;if(self.isBlock===true){processAll();}}};document.getElementsByTagName('head')[0].appendChild(scr);}},fileLoaded:function(name,isComplete){this.name=name;this.path="";this.async=false;this.defer=false;this.isBlock=false;this.blockedBy=[];this.isInitialized=true;this.isError=false;this.isComplete=isComplete;this.proceedIfError=false;this.isTimeDelay=false;this.process=function(){};}};function init(){window.addEventListener("load",function(){setTimeout(function(){timeDelayFired=true;log('TDELAY -----');processAll();},5000);},false);}
+function addFile(name,path,isBlock,blockedBy,async,defer,proceedIfError,priority){var item=new obj.file(name,path,isBlock,blockedBy,async,defer,proceedIfError);if(priority===true){hpItems[name]=item}else{lpItems[name]=item}
+items[name]=item;checkIfBlocked(item);}
+function setallowLoad(settobool){allowLoad=settobool}
+function addFunc(name,func,parameters,isBlock,blockedBy,autoInc,deleteWhenComplete,proceedIfError,priority){if(autoInc===true)name=name+"_"+incr++;var item=new obj.func(name,func,parameters,isBlock,blockedBy,deleteWhenComplete,proceedIfError);if(priority===true){hpItems[name]=item}else{lpItems[name]=item}
+items[name]=item;checkIfBlocked(item);}
+function addTimeDelayFile(name,path){var item=new obj.file(name,path,false,[],false,false,true);item.isTimeDelay=true;log(name+' ... '+' FILE! TDELAY');lpItems[name]=item;items[name]=item;checkIfBlocked(item);}
+function addTimeDelayFunc(name,func,parameters){var item=new obj.func(name,func,parameters,false,[],true,true);item.isTimeDelay=true;log(name+' ... '+' FUNCTION! TDELAY');lpItems[name]=item;items[name]=item;checkIfBlocked(item);}
+function checkIfBlocked(item){if(isBlocked(item)===true||allowLoad==false)return;item.process();}
+function isBlocked(item){if(item.isTimeDelay===true&amp;&amp;timeDelayFired===false){log(item.name+" blocked = TIME DELAY!");return true;}
+if(item.blockedBy instanceof Array){for(var i=0;i&lt;item.blockedBy.length;i++){var block=item.blockedBy[i];if(items.hasOwnProperty(block)===false){log(item.name+" blocked = "+block);return true;}else if(item.proceedIfError===true&amp;&amp;items[block].isError===true){return false;}else if(items[block].isComplete===false){log(item.name+" blocked = "+block);return true;}}}
+return false;}
+function markLoaded(filename){if(!filename||0===filename.length){return;}
+if(filename in items){var item=items[filename];if(item.isComplete===true){log(item.name+' '+filename+': error loaded duplicate')}else{item.isComplete=true;item.isInitialized=true;}}else{items[filename]=new obj.fileLoaded(filename,true);}
+log("markLoaded dummyfile: "+items[filename].name);}
+function logWhatsBlocked(){for(var i in items){if(items.hasOwnProperty(i)===false)continue;var item=items[i];isBlocked(item)}}
+function log(msg){var href=window.location.href;var reg=new RegExp('[?&amp;]ezq=([^&amp;#]*)','i');var string=reg.exec(href);var res=string?string[1]:null;if(res==="1")console.debug(msg);}
+function processAll(){count++;if(count&gt;200)return;log("let's go");processItems(hpItems);processItems(lpItems);}
+function processItems(list){for(var i in list){if(list.hasOwnProperty(i)===false)continue;var item=list[i];if(item.isComplete===true||isBlocked(item)||item.isInitialized===true||item.isError===true){if(item.isError===true){log(item.name+': error')}else if(item.isComplete===true){log(item.name+': complete already')}else if(item.isInitialized===true){log(item.name+': initialized already')}}else{item.process();}}}
+init();return{addFile:addFile,addDelayFile:addTimeDelayFile,addFunc:addFunc,addDelayFunc:addTimeDelayFunc,items:items,processAll:processAll,setallowLoad:setallowLoad,markLoaded:markLoaded,logWhatsBlocked:logWhatsBlocked,};})();__ez.evt.add=function(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent?e.attachEvent("on"+t,n):e["on"+t]=n()},__ez.evt.remove=function(e,t,n){e.removeEventListener?e.removeEventListener(t,n,!1):e.detachEvent?e.detachEvent("on"+t,n):delete e["on"+t]};__ez.script.add=function(e){var t=document.createElement("script");t.src=e,t.async=!0,t.type="text/javascript",document.getElementsByTagName("head")[0].appendChild(t)};__ez.dot={};__ez.queue.addFile('/detroitchicago/boise.js', '/detroitchicago/boise.js?gcb=195-6&amp;cb=1', false, [], true, false, true, false);__ez.queue.addFile('/detroitchicago/memphis.js', '/detroitchicago/memphis.js?gcb=195-6&amp;cb=10', false, [], true, false, true, false);__ez.queue.addFile('/detroitchicago/minneapolis.js', '/detroitchicago/minneapolis.js?gcb=195-6&amp;cb=3', false, [], true, false, true, false);__ez.queue.addFile('/detroitchicago/rochester.js', '/detroitchicago/rochester.js?gcb=195-6&amp;cb=12', false, ['/detroitchicago/memphis.js','/detroitchicago/minneapolis.js'], true, false, true, false);__ez.vep=(function(){var pixels=[],pxURL="/detroitchicago/grapefruit.gif";function AddPixel(vID,pixelData){if(__ez.dot.isDefined(vID)&amp;&amp;__ez.dot.isValid(pixelData)){pixels.push({type:'video',video_impression_id:vID,domain_id:__ez.dot.getDID(),t_epoch:__ez.dot.getEpoch(0),data:__ez.dot.dataToStr(pixelData)});}}
+function Fire(){if(typeof document.visibilityState!=='undefined'&amp;&amp;document.visibilityState==="prerender"){return;}
+if(__ez.dot.isDefined(pixels)&amp;&amp;pixels.length&gt;0){while(pixels.length&gt;0){var j=5;if(j&gt;pixels.length){j=pixels.length;}
+var pushPixels=pixels.splice(0,j);var pixelURL=__ez.dot.getURL(pxURL)+"?orig="+(__ez.template.isOrig===true?1:0)+"&amp;v="+btoa(JSON.stringify(pushPixels));__ez.dot.Fire(pixelURL);}}
+pixels=[];}
+return{Add:AddPixel,Fire:Fire};})();&lt;/script&gt;&lt;script data-ezscrex='false' data-cfasync='false' data-pagespeed-no-defer&gt;__ez.pel=(function(){var pixels=[],pxURL="/porpoiseant/army.gif";function AddAndFirePixel(adSlot,pixelData){AddPixel(adSlot,pixelData,0,0,0,0,0);Fire();}
+function AddAndFireOrigPixel(adSlot,pixelData){AddPixel(adSlot,pixelData,0,0,0,0,0,true);Fire();}
+function GetCurrentPixels(){return pixels;}
+function AddPixel(adSlot,pixelData,revenue,est_revenue,bid_floor_filled,bid_floor_prev,stat_source_id,isOrig){if(!__ez.dot.isDefined(adSlot)||__ez.dot.isAnyDefined(adSlot.getSlotElementId,adSlot.ElementId)==false){return;}
+var ad_position_id=parseInt(__ez.dot.getTargeting(adSlot,'ap'));var impId=__ez.dot.getSlotIID(adSlot),adUnit=__ez.dot.getAdUnit(adSlot,isOrig);var compId=parseInt(__ez.dot.getTargeting(adSlot,"compid"));var lineItemId=0;var creativeId=0;var ezimData=getEzimData(adSlot);if(typeof ezimData=='object'){if(ezimData.creative_id!==undefined){creativeId=ezimData.creative_id;}
+if(ezimData.line_item_id!==undefined){lineItemId=ezimData.line_item_id;}}
+if(__ez.dot.isDefined(impId,adUnit)&amp;&amp;__ez.dot.isValid(pixelData)){pixels.push({type:"impression",impression_id:impId,domain_id:__ez.dot.getDID(),unit:adUnit,t_epoch:__ez.dot.getEpoch(0),revenue:revenue,est_revenue:est_revenue,ad_position:ad_position_id,ad_size:"",bid_floor_filled:bid_floor_filled,bid_floor_prev:bid_floor_prev,stat_source_id:stat_source_id,country_code:__ez.dot.getCC(),pageview_id:__ez.dot.getPageviewId(),comp_id:compId,line_item_id:lineItemId,creative_id:creativeId,data:__ez.dot.dataToStr(pixelData),is_orig:isOrig||__ez.template.isOrig,});}}
+function AddPixelById(impFullId,pixelData,isOrig){var vals=impFullId.split('/');if(__ez.dot.isDefined(impFullId)&amp;&amp;vals.length===3&amp;&amp;__ez.dot.isValid(pixelData)){var adUnit=vals[0],impId=vals[2];pixels.push({type:"impression",impression_id:impId,domain_id:__ez.dot.getDID(),unit:adUnit,t_epoch:__ez.dot.getEpoch(0),pageview_id:__ez.dot.getPageviewId(),data:__ez.dot.dataToStr(pixelData),is_orig:isOrig||__ez.template.isOrig});}}
+function Fire(){if(typeof document.visibilityState!=='undefined'&amp;&amp;document.visibilityState==="prerender")return;if(__ez.dot.isDefined(pixels)&amp;&amp;pixels.length&gt;0){var allPixels=[pixels.filter(function(pixel){return pixel.is_orig}),pixels.filter(function(pixel){return!pixel.is_orig})];allPixels.forEach(function(pixels){while(pixels.length&gt;0){var isOrig=pixels[0].is_orig||false;var j=5;if(j&gt;pixels.length){j=pixels.length;}
+var pushPixels=pixels.splice(0,j);var pixelURL=__ez.dot.getURL(pxURL)+"?orig="+(isOrig===true?1:0)+"&amp;sts="+btoa(JSON.stringify(pushPixels));if(typeof window.isAmp!=='undefined'&amp;&amp;isAmp&amp;&amp;typeof window._ezaq!=='undefined'&amp;&amp;_ezaq.hasOwnProperty("domain_id")){pixelURL+="&amp;visit_uuid="+_ezaq['visit_uuid'];}
+__ez.dot.Fire(pixelURL);}})}
+pixels=[];}
+function getEzimData(adSlot){if(typeof _ezim_d=="undefined"){return false}
+var adUnitName=__ez.dot.getAdUnitPath(adSlot).split('/').pop();if(typeof _ezim_d==='object'&amp;&amp;_ezim_d.hasOwnProperty(adUnitName)){return _ezim_d[adUnitName];}
+for(var ezimKey in _ezim_d){if(ezimKey.split('/').pop()===adUnitName){return _ezim_d[ezimKey];}}
+return false;}
+return{Add:AddPixel,AddAndFire:AddAndFirePixel,AddAndFireOrig:AddAndFireOrigPixel,AddById:AddPixelById,Fire:Fire,GetPixels:GetCurrentPixels,};})();__ez.queue.addFile('/detroitchicago/raleigh.js', '/detroitchicago/raleigh.js?gcb=195-6&amp;cb=5', false, [], true, false, true, false);__ez.queue.addFile('/detroitchicago/tampa.js', '/detroitchicago/tampa.js?gcb=195-6&amp;cb=3', false, [], true, false, true, false);&lt;/script&gt;
+&lt;script data-ezscrex="false" data-cfasync="false"&gt;(function(){if("function"===typeof window.CustomEvent)return!1;window.CustomEvent=function(c,a){a=a||{bubbles:!1,cancelable:!1,detail:null};var b=document.createEvent("CustomEvent");b.initCustomEvent(c,a.bubbles,a.cancelable,a.detail);return b}})();&lt;/script&gt;&lt;script data-ezscrex="false" data-cfasync="false"&gt;__ez.queue.addFile('/detroitchicago/tulsa.js', '/detroitchicago/tulsa.js?gcb=195-6&amp;cb=5', false, [], true, false, true, false);&lt;/script&gt;
+    &lt;base href="http://dummy.restapiexample.com/" target="_top"/&gt;
+	&lt;meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/&gt;
+    
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/&gt;
+    &lt;meta name="description" content="au theme template"/&gt;
+    &lt;meta name="author" content=""/&gt;
+    &lt;meta name="keywords" content="dummy api, fake api,testing api"/&gt;
+	&lt;title&gt;Dummy sample rest api - dummy.restapiexample.com&lt;/title&gt;
+	&lt;meta name="google-site-verification" content="uvm-CRVSvWcmGD3JsmVhb_fZJYHgoc11mwG9tX_gNVg"/&gt;
+
+	&lt;meta name="description" content="The Dummy Rest API with demo.we are providing free online REST API that you can use whenever you need some fake data."/&gt;
+
+    &lt;!-- Title Page--&gt;
+    &lt;title&gt;Laravel Layout&lt;/title&gt;
+
+    &lt;!-- Fontfaces CSS--&gt;
+    &lt;link href="http://dummy.restapiexample.com/css/bootstrap.min.css" rel="stylesheet" media="all"/&gt;
+    &lt;link href="http://dummy.restapiexample.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" media="all"/&gt;
+    &lt;link href="http://dummy.restapiexample.com/css/fonts.googleapis.com.css" rel="stylesheet" media="all"/&gt;
+	&lt;link href="http://dummy.restapiexample.com/css/ace.min.css" rel="stylesheet" media="all"/&gt;
+	&lt;link href="http://dummy.restapiexample.com/css/ace-skins.min.css" rel="stylesheet" media="all"/&gt;
+	&lt;link href="http://dummy.restapiexample.com/css/ace-rtl.min.css" rel="stylesheet" media="all"/&gt;
+	&lt;link rel="shortcut icon" href="http://dummy.restapiexample.com/images/favicon.ico"/&gt;
+&lt;script type="text/javascript"&gt;var ezouid = "1";&lt;/script&gt;&lt;script type='text/javascript'&gt;
+var ezoTemplate = 'old_site_noads';
+if(typeof ezouid == 'undefined')
+{
+    var ezouid = 'none';
+}
+var ezoFormfactor = '1';
+var ezo_elements_to_check = Array();
+&lt;/script&gt;&lt;!-- START EZHEAD --&gt;
+&lt;script data-ezscrex="false" type='text/javascript'&gt;
+var soc_app_id = '0';
+var did = 133674;
+var ezdomain = 'restapiexample.com';
+var ezoicSearchable = 1;
+&lt;/script&gt;
+&lt;!--{jquery}--&gt;
+&lt;!-- END EZHEAD --&gt;
+&lt;script data-ezscrex="false" type="text/javascript" data-cfasync="false"&gt;var _ezaq = {"ad_cache_level":0,"ad_lazyload_version":0,"ad_load_version":0,"city":"Namakkal","country":"IN","days_since_last_visit":-1,"domain_id":133674,"domain_test_group":20210308,"engaged_time_visit":0,"ezcache_level":1,"ezcache_skip_code":11,"form_factor_id":1,"framework_id":1,"is_return_visitor":false,"is_sitespeed":0,"last_page_load":"","last_pageview_id":"","lt_cache_level":0,"metro_code":0,"page_ad_positions":"","page_view_count":0,"page_view_id":"bbe7305d-c9e1-4983-53bd-5f672da0e01a","position_selection_id":0,"postal_code":"637002","pv_event_count":0,"response_size_orig":8361,"response_time_orig":845,"serverid":"35.154.177.187:11008","state":"TN","t_epoch":1627579236,"template_id":120,"time_on_site_visit":0,"url":"http://dummy.restapiexample.com/","user_id":0,"word_count":193,"worst_bad_word_level":0};var _ezExtraQueries = "&amp;ez_orig=1";&lt;/script&gt;
+&lt;script data-ezscrex='false' data-pagespeed-no-defer data-cfasync='false'&gt;
+function create_ezolpl(pvID, rv) {
+    var d = new Date();
+    d.setTime(d.getTime() + (365*24*60*60*1000));
+    var expires = "expires="+d.toUTCString();
+    __ez.ck.setByCat("ezux_lpl_133674=" + new Date().getTime() + "|" + pvID + "|" + rv + "; " + expires, 3);
+}
+function attach_ezolpl(pvID, rv) {
+    if (document.readyState === "complete") {
+        create_ezolpl(pvID, rv);
+    }
+    if(window.attachEvent) {
+        window.attachEvent("onload", create_ezolpl, pvID, rv);
+    } else {
+        if(window.onload) {
+            var curronload = window.onload;
+            var newonload = function(evt) {
+                curronload(evt);
+                create_ezolpl(pvID, rv);
+            };
+            window.onload = newonload;
+        } else {
+            window.onload = create_ezolpl.bind(null, pvID, rv);
+        }
+    }
+}
+
+__ez.queue.addFunc("attach_ezolpl", "attach_ezolpl", ["bbe7305d-c9e1-4983-53bd-5f672da0e01a", "false"], false, ['/detroitchicago/boise.js'], true, false, false, false);
+&lt;/script&gt;&lt;/head&gt;
+
+&lt;body class="no-skin"&gt;
+        &lt;div id="navbar" class="navbar navbar-default          ace-save-state"&gt;
+	&lt;div class="navbar-container ace-save-state" id="navbar-container"&gt;
+		&lt;button type="button" class="navbar-toggle menu-toggler pull-left" id="menu-toggler" data-target="#sidebar"&gt;
+			&lt;span class="sr-only"&gt;Toggle sidebar&lt;/span&gt;
+
+			&lt;span class="icon-bar"&gt;&lt;/span&gt;
+
+			&lt;span class="icon-bar"&gt;&lt;/span&gt;
+
+			&lt;span class="icon-bar"&gt;&lt;/span&gt;
+		&lt;/button&gt;
+
+		&lt;div class="navbar-header pull-left"&gt;
+			&lt;a href="http://dummy.restapiexample.com/" class="navbar-brand"&gt;
+				&lt;small&gt;
+					&lt;img src="http://dummy.restapiexample.com/images/logo_header.png" width="60"/&gt;
+					Dummy Rest API Example
+				&lt;/small&gt;
+			&lt;/a&gt;
+		&lt;/div&gt;
+		&lt;div class="navbar-buttons navbar-header pull-right" role="navigation"&gt;
+			
+		&lt;/div&gt;
+	&lt;/div&gt;&lt;!-- /.navbar-container --&gt;
+&lt;/div&gt;
+        &lt;div id="sidebar" class="sidebar responsive ace-save-state"&gt;
+	&lt;ul class="nav nav-list"&gt;
+		&lt;li class=""&gt;
+			&lt;a href="/"&gt;
+				&lt;i class="menu-icon fa fa-tachometer"&gt;&lt;/i&gt;
+				&lt;span class="menu-text"&gt; Dummy Apis &lt;/span&gt;
+			&lt;/a&gt;
+
+			&lt;b class="arrow"&gt;&lt;/b&gt;
+		&lt;/li&gt;
+		&lt;li class=""&gt;
+			&lt;a href="/employees"&gt;
+				&lt;i class="menu-icon fa fa-list"&gt;&lt;/i&gt;
+				&lt;span class="menu-text"&gt; All Employees &lt;/span&gt;
+			&lt;/a&gt;
+
+			&lt;b class="arrow"&gt;&lt;/b&gt;
+		&lt;/li&gt;
+		&lt;li class=""&gt;
+			&lt;a href="/contact"&gt;
+				&lt;i class="menu-icon fa fa-list"&gt;&lt;/i&gt;
+				&lt;span class="menu-text"&gt; Contact US &lt;/span&gt;
+			&lt;/a&gt;
+
+			&lt;b class="arrow"&gt;&lt;/b&gt;
+		&lt;/li&gt;
+	&lt;/ul&gt;&lt;!-- /.nav-list --&gt;
+	&lt;div id="vdo_ai_div"&gt;&lt;/div&gt;
+	&lt;div&gt;
+	&lt;/div&gt;
+	&lt;div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse"&gt;
+		&lt;i id="sidebar-toggle-icon" class="ace-icon fa fa-angle-double-left ace-save-state" data-icon1="ace-icon fa fa-angle-double-left" data-icon2="ace-icon fa fa-angle-double-right"&gt;&lt;/i&gt;
+	&lt;/div&gt;
+&lt;/div&gt;        &lt;div class="main-content"&gt;
+	&lt;div class="main-content-inner"&gt;
+		&lt;div class="breadcrumbs ace-save-state" id="breadcrumbs"&gt;
+			&lt;ul class="breadcrumb"&gt;
+				&lt;li&gt;
+					&lt;i class="ace-icon fa fa-home home-icon"&gt;&lt;/i&gt;
+					&lt;a href="#"&gt;Home&lt;/a&gt;
+				&lt;/li&gt;
+			&lt;/ul&gt;&lt;!-- /.breadcrumb --&gt;
+		&lt;/div&gt;
+		&lt;div&gt;
+		&lt;div id="ezoic-pub-ad-placeholder-114"&gt;
+		&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class="page-content"&gt;
+                      &lt;div class="clearfix row"&gt;
+			 &lt;h1&gt;Welcome Dummy api example&lt;/h1&gt;
+			 &lt;div class="alert alert-info"&gt;
+				&lt;button type="button" class="close" data-dismiss="alert"&gt;
+					&lt;i class="ace-icon fa fa-times"&gt;&lt;/i&gt;
+				&lt;/button&gt;
+				&lt;strong&gt;Info -&lt;/strong&gt;
+				Its a free and Public API, There are some people are using CRON job to insert and update.Please avoid CRON job that will cause Server issue.
+I am not making enough money to get VPS.
+I have changed results Data structure, I apologies for that.
+You can support this public API using &lt;a href="/contact" title="contact dummy restapi example" class="link-red"&gt;paypal/payoneer&lt;/a&gt;.
+				&lt;br/&gt;
+			&lt;/div&gt;
+		&lt;p class="lead"&gt;This page will contains all rest service .Thease are Fake Online REST API for Testing and Prototyping of sample application which are using rest call to display listing and crud features.
+You can use this rest api tutorials, faking a server, sharing code examples.&lt;/p&gt;
+
+		&lt;h3&gt;There are following public apis&lt;/h3&gt;
+		
+		&lt;table class="table"&gt;
+			&lt;thead class="thead-inverse"&gt;
+				&lt;tr&gt;
+					&lt;th&gt;#&lt;/th&gt;
+					&lt;th&gt;Route&lt;/th&gt;
+					&lt;th&gt;Method&lt;/th&gt;
+					&lt;th&gt;Type&lt;/th&gt;
+					&lt;th&gt;Full route&lt;/th&gt;
+					&lt;th&gt;Description&lt;/th&gt;
+					&lt;th&gt;Details&lt;/th&gt;
+				&lt;/tr&gt;
+			&lt;/thead&gt;
+		&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th scope="row"&gt;1&lt;/th&gt;
+			&lt;td&gt;/employee&lt;/td&gt;
+			&lt;td&gt;GET&lt;/td&gt;
+			&lt;td&gt;JSON&lt;/td&gt;
+			&lt;td&gt;&lt;a href="http://dummy.restapiexample.com/api/v1/employees" class="link-red" target="_blank"&gt;http://dummy.restapiexample.com/api/v1/employees&lt;/a&gt;&lt;/td&gt;
+			&lt;td&gt;Get all employee data&lt;/td&gt;
+			&lt;td&gt;&lt;a href="/employees" class="red-link"&gt;Details&lt;/a&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;th scope="row"&gt;2&lt;/th&gt;
+			&lt;td&gt;/employee/{id}&lt;/td&gt;
+			&lt;td&gt;GET&lt;/td&gt;
+			&lt;td&gt;JSON&lt;/td&gt;
+			&lt;td&gt;&lt;a href="http://dummy.restapiexample.com/api/v1/employee/1" class="link-red" target="_blank"&gt;http://dummy.restapiexample.com/api/v1/employee/1&lt;/a&gt;&lt;/td&gt;
+			&lt;td&gt;Get a single employee data&lt;/td&gt;
+			&lt;td&gt;&lt;a href="/employee" class="red-link"&gt;Details&lt;/a&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;th scope="row"&gt;3&lt;/th&gt;
+			&lt;td&gt;/create&lt;/td&gt;
+			&lt;td&gt;POST&lt;/td&gt;
+			&lt;td&gt;JSON&lt;/td&gt;
+			&lt;td&gt;&lt;a href="http://dummy.restapiexample.com/api/v1/create" class="link-red" target="_blank"&gt;http://dummy.restapiexample.com/api/v1/create&lt;/a&gt;&lt;/td&gt;
+			&lt;td&gt;Create new record in database&lt;/td&gt;
+			&lt;td&gt;&lt;a href="/create" class="red-link"&gt;Details&lt;/a&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;th scope="row"&gt;4&lt;/th&gt;
+			&lt;td&gt;/update/{id}&lt;/td&gt;
+			&lt;td&gt;PUT&lt;/td&gt;
+			&lt;td&gt;JSON&lt;/td&gt;
+			&lt;td&gt;&lt;a href="http://dummy.restapiexample.com/api/v1/update/21/" class="link-red" target="_blank"&gt;http://dummy.restapiexample.com/api/v1/update/21&lt;/a&gt;&lt;/td&gt;
+			&lt;td&gt;Update an employee record&lt;/td&gt;
+			&lt;td&gt;&lt;a href="/update" class="red-link"&gt;Details&lt;/a&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;th scope="row"&gt;5&lt;/th&gt;
+			&lt;td&gt;/delete/{id}&lt;/td&gt;
+			&lt;td&gt;DELETE&lt;/td&gt;
+			&lt;td&gt;JSON&lt;/td&gt;
+			&lt;td&gt;&lt;a href="http://dummy.restapiexample.com/api/v1/delete/2/" class="link-red" target="_blank"&gt;http://dummy.restapiexample.com/api/v1/delete/2&lt;/a&gt;&lt;/td&gt;
+			&lt;td&gt;Delete an employee record&lt;/td&gt;
+			&lt;td&gt;&lt;a href="/delete" class="red-link"&gt;Details&lt;/a&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+			&lt;/div&gt;&lt;!-- /.row --&gt;
+        &lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div id="ezoic-pub-ad-placeholder-114"&gt;
+		&lt;/div&gt;
+		&lt;/div&gt;
+            &lt;div class="footer"&gt;
+        &lt;div class="footer-inner"&gt;
+          &lt;div class="footer-content"&gt;
+            &lt;span class="bigger-120"&gt;
+              &lt;span class="blue bolder"&gt;&lt;a href="https://www.restapiexample.com"&gt;Restapiexample&lt;/a&gt;&lt;/span&gt;&lt;a href="https://www.restapiexample.com"&gt;
+               &copy; 2017-2019
+            &lt;/a&gt;&lt;/span&gt;&lt;a href="https://www.restapiexample.com"&gt;
+
+            &nbsp; &nbsp;
+          &lt;/a&gt;&lt;/div&gt;&lt;a href="https://www.restapiexample.com"&gt;
+        &lt;/a&gt;&lt;/div&gt;&lt;a href="https://www.restapiexample.com"&gt;
+      &lt;/a&gt;&lt;/div&gt;&lt;a href="https://www.restapiexample.com"&gt;
+
+      &lt;/a&gt;&lt;a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse"&gt;
+        &lt;i class="ace-icon fa fa-angle-double-up icon-only bigger-110"&gt;&lt;/i&gt;
+      &lt;/a&gt;
+    &lt;!-- /.main-container --&gt;
+
+    &lt;!-- basic scripts --&gt;
+&lt;script&gt;
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-89412690-1', 'auto');
+  ga('send', 'pageview');
+
+&lt;/script&gt;
+
+	&lt;link href="http://dummy.restapiexample.com/js/ace-extra.min.js" rel="stylesheet" media="all"/&gt;
+	&lt;link href="http://dummy.restapiexample.com/js/bootstrap.min.js" rel="stylesheet" media="all"/&gt;
+	&lt;link href="http://dummy.restapiexample.com/js/ace-elements.min.js" rel="stylesheet" media="all"/&gt;
+	&lt;link href="http://dummy.restapiexample.com/js/ace.min.js" rel="stylesheet" media="all"/&gt;&lt;script type='text/javascript' style='display:none;' async&gt;
+__ez.queue.addFile('/detroitchicago/edmonton.webp', '/detroitchicago/edmonton.webp?a=a&amp;cb=6&amp;shcb=34', true, ['/detroitchicago/minneapolis.js'], true, false, false, false);
+__ez.queue.addFile('/porpoiseant/jellyfish.webp', '/porpoiseant/jellyfish.webp?a=a&amp;cb=6&amp;shcb=34', false, [], true, false, false, false);
+&lt;/script&gt;
+
+&lt;script&gt;var _audins_dom="restapiexample_com",_audins_did=133674;__ez.queue.addDelayFunc("audins.js","__ez.script.add", "//go.ezoic.net/detroitchicago/audins.js?cb=195-6");&lt;/script&gt;&lt;noscript&gt;&lt;div style="display:none;"&gt;&lt;img src="//pixel.quantserve.com/pixel/p-31iz6hfFutd16.gif?labels=Domain.restapiexample_com,DomainId.133674" border="0" height="1" width="1" alt="Quantcast"/&gt;&lt;/div&gt;&lt;/noscript&gt;
+&lt;script type="text/javascript" data-cfasync="false"&gt;&lt;/script&gt;
+&lt;script&gt;__ez.queue.addFile('/tardisrocinante/vitals.js', '/tardisrocinante/vitals.js?gcb=6&amp;cb=3', false, ['/detroitchicago/minneapolis.js'], true, false, true, false);&lt;/script&gt;&lt;/body&gt;&lt;!-- ace settings handler --&gt;&lt;/html&gt;
+
+22:50:38.518 xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 74; Attribute name "data-pagespeed-no-defer" associated with an element type "script" must be followed by the ' = ' character.</div>
+                    <div class="step-row">
+                        <div class="step-container" id="3">
+                            <div class="step-ref passed">3</div>
+                            <div class="step-cell passed">Then status 200</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                </div>
+            </div>
+                
+        </div>
+           
+  
+    </body>
+    
+</html>
